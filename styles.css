@@ -56,6 +56,11 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     transition: var(--transition);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
 }
 
 .nav-logo a:hover {
